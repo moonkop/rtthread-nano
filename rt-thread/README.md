@@ -4,7 +4,7 @@ RT-Thread Nano 是一个极简版的硬实时内核，它是由 C 语言开发�
 
 下图是 RT-Thread Nano 的软件框图，包含支持的 CPU 架构与内核源码，还有可拆卸的 FinSH 组件：
 
-![架构](docs/figures/framework.png)
+![架构](https://www.rt-thread.org/document/site/rt-thread-version/rt-thread-nano/figures/framework.png)
 
 **支持架构**：ARM：Cortex M0/ M3/ M4/ M7 等、RISC-V 及其他。
 
@@ -16,7 +16,7 @@ RT-Thread Nano 是一个极简版的硬实时内核，它是由 C 语言开发�
 
 **1、下载简单**
 
-RT-Thread Nano 以软件包的方式集成在 Keil MDK 与 CubeMX 中，可以直接在软件中下载 Nano 软件包获取源码，获取方式详见 [使用 KEIL MDK 移植 RT-Thread Nano](nano-port-keil/nano-port-keil.md) 与 [使用 CubeMX 移植 RT-Thread Nano](nano-port-cube/nano-port-cube.md) 。
+RT-Thread Nano 以软件包的方式集成在 Keil MDK 与 CubeMX 中，可以直接在软件中下载 Nano 软件包获取源码，获取方式详见 [使用 KEIL MDK 移植 RT-Thread Nano](https://www.rt-thread.org/document/site/#/rt-thread-version/rt-thread-nano/nano-port-keil/an0039-nano-port-keil) 与 [使用 CubeMX 移植 RT-Thread Nano](https://www.rt-thread.org/document/site/#/rt-thread-version/rt-thread-nano/nano-port-cube/an0041-nano-port-cube) 。
 
 同时也提供 [下载 Nano 源码压缩包]() 的途径，方便在其他开发环境移植 RT-Thread Nano，如 [使用 IAR 移植 RT-Thread Nano](nano-port-iar/nano-port-iar.md)。
 
@@ -28,10 +28,10 @@ RT-Thread Nano 以软件包的方式集成在 Keil MDK 与 CubeMX 中，可以�
 
 由于 Nano 的极简特性，使 Nano 的移植过程变得极为简单。添加 Nano 源码到工程，就已完成 90% 的移植工作。并且在 Keil MDK 与 Cube MX 中还提供了 Nano 的软件包，可以一键下载加入到工程。以下是使用不同开发环境时，可以选择移植 Nano 的方法：
 
-- [使用 KEIL MDK 移植 RT-Thread Nano](nano-port-keil/nano-port-keil.md)
-- [使用 CubeMX 移植 RT-Thread Nano](nano-port-cube/nano-port-cube.md)
-- [使用 IAR 移植 RT-Thread Nano](nano-port-iar/nano-port-iar.md)
-- [移植 RT-Thread Nano 到 RISC-V](nano-port-gcc-riscv/nano-port-gcc-riscv.md) 
+- [使用 KEIL MDK 移植 RT-Thread Nano](https://www.rt-thread.org/document/site/#/rt-thread-version/rt-thread-nano/nano-port-keil/an0039-nano-port-keil)
+- [使用 CubeMX 移植 RT-Thread Nano](https://www.rt-thread.org/document/site/#/rt-thread-version/rt-thread-nano/nano-port-cube/an0041-nano-port-cube)
+- [使用 IAR 移植 RT-Thread Nano](https://www.rt-thread.org/document/site/#/rt-thread-version/rt-thread-nano/nano-port-iar/an0040-nano-port-iar)
+- [移植 RT-Thread Nano 到 RISC-V](https://www.rt-thread.org/document/site/#/rt-thread-version/rt-thread-nano/nano-port-gcc-riscv/an0042-nano-port-gcc-riscv) 
 
 **4、使用简单**
 
